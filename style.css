@@ -1,0 +1,100 @@
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0 auto;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 56px;
+  background-color: black;
+  padding-left: 16px;
+  color: #fff;
+  padding-top: 8px;
+}
+
+a {
+  text-decoration: underline;
+  color: rgb(140, 10, 19);
+}
+.logo {
+  width: 34px;
+  height: 44px;
+  vertical-align: middle;
+}
+.logoText {
+  color: #fff;
+  vertical-align: middle;
+  padding-left: 12px;
+}
+.header a {
+  text-decoration: none;
+}
+
+ul.nav {
+  list-style: none;
+  display: inline;
+  float: right;
+  position: relative;
+  top: -5px;
+}
+
+ul.nav li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+ul.nav li a {
+  color: #fff;
+  vertical-align: middle;
+  padding-left: 12px;
+  text-decoration: none;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  font-size: 17px;
+  gap: 40px;
+}
+.center {
+  justify-content: center;
+}
+.heading {
+  text-align: center;
+}
+.box {
+  margin-left: 120px;
+  margin-right: 120px;
+  justify-content: start;
+}
+.quizBox {
+  margin-left: 120px;
+  margin-right: 120px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#quiz {
+  text-align: left;
+}
+#submitDiv {
+  text-align: center;
+}
+#results {
+  text-align: center;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  width: 400px;
+  text-align: center;
+}

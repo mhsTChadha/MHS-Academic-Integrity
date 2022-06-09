@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>MHS Academic Integrity</title>
+    <meta charset="utf-8" />
+  </head>
+  <body onload="makeQuiz()">
+    <div class="header">
+      <a href="index.html">
+        <img class="logo" src="./Images/MHS_Logo.png" />
+        <span class="logoText">Merivale High School</span>
+      </a>
+      <ul class="nav">
+        <li><a href="citations.html">Citation Help</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </div>
+
+    <h1 class="heading">Test your Knowledge</h1>
+    <div class="content">
+      <div class="quizBox">
+        <div id="quiz"></div>
+        <div id="submitDiv">
+          <button id="submit" onclick="displayResults();">Submit Quiz</button>
+        </div>
+        <div id="results"></div>
+      </div>
+    </div>
+    <script src="./quiz.js"></script>
+  </body>
+</html>
