@@ -101,7 +101,7 @@ const questions = [
 
   {
     question:
-      "Is it concisdered plagirsm if you genuinely forget to cite your sources?",
+      "Is it considered plagiarsm if you genuinely forget to cite your sources?",
     answers: {
       a: "Yes",
       b: "No",
