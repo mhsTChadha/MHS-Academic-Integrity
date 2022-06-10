@@ -94,7 +94,7 @@ const questions = [
     answers: {
       a: "True",
       b: "False",
-      c: "Only if Mark Chen says so",
+      c: "Only ifyou want an A",
     },
     correctAnswer: "a",
   },
@@ -114,7 +114,7 @@ const questions = [
     answers: {
       a: "True",
       b: "False",
-      c: "Only if Mark Chen says so",
+      c: "It makes you look fancy",
     },
     correctAnswer: "a",
   },
